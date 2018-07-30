@@ -201,6 +201,7 @@ export default class InfiniteScroll extends Component {
       WebkitOverflowScrolling: "touch",
       ...this.props.style
     };
+    const className = this.props.className;
     const hasChildren =
       this.props.hasChildren ||
       !!(this.props.children && this.props.children.length);
@@ -214,7 +215,7 @@ export default class InfiniteScroll extends Component {
     return (
       <div style={outerDivStyle}>
         <div
-          className="infinite-scroll-component"
+          className={"infinite-scroll-component "+className}
           ref={infScroll => (this._infScroll = infScroll)}
           style={style}
         >
