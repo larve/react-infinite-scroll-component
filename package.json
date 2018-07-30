@@ -1,7 +1,7 @@
 {
-  "name": "react-infinite-scroll-component",
+  "name": "react-infinite-scroll-component-genetics",
   "version": "4.1.0",
-  "description": "An Infinite Scroll component in react.",
+  "description": "An Infinite Scroll component in react. FORKED",
   "main": "lib/index.js",
   "scripts": {
     "dev": "NODE_ENV=development node server.js",
@@ -27,9 +27,9 @@
   "author": "Ankeet Maini <ankeet.maini@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ankeetmaini/react-infinite-scroll-component/issues"
+    "url": "https://github.com/larve/react-infinite-scroll-component/issues"
   },
-  "homepage": "https://github.com/ankeetmaini/react-infinite-scroll-component#readme",
+  "homepage": "https://github.com/larve/react-infinite-scroll-component#readme",
   "peerDependencies": {
     "react": ">=0.14.0",
     "prop-types": "^15.0.0"
